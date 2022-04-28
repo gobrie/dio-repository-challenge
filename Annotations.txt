@@ -1,0 +1,27 @@
+Introdução ao Git e ao Github
+Comandos básicos:
+dir; listar diretórios.
+cd; troca de diretório.
+cls; para limpar a tela.
+ls; visualizar conteúdos no diretório.
+mkdir; criar diretório.
+echo; checa se há arquivo criado no diretório, caso não há irá criar um.
+del; deleta diretório ou arquivo.
+openssl sha1; gera código de 40 dígitos da versão do arquivo.
+Objetos internos do Git:
+Blops: Contém metadados do objeto.
+Tree: Armazena e aponta para tipos de blops diferentes.
+Commit: Aponta para uma tree, parente, autor, mensagem, timestamp e também possui encriptação.
+Chaves SSH e Tokens:
+Chave SSH: é uma forma de manter uma ligação com uma chave pública e uma chave privada 
+Iniciando o Git e criando um commit
+git init; Para o Git começar a gerenciar a pasta.
+git config --global user.email "email"; para atrelar um email ao repositorio.
+git config --global user.name "name"; para atrelar um nome ao repositorio
+git add *; para adicionar tudo no diretório.
+git commit -m "mensagem"; para gerar o código encriptado com os metadados e a mensagem.
+git status; informa a situação atual do repositório.
+git remote add origin link; enviar arquivos para a origem remota do github.
+git push origin master; envia o repositório local para o repositório remoto.
+
+
